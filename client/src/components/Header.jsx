@@ -13,6 +13,7 @@ import {
   signOutUserSuccess,
 } from "../redux/user/userSlice";
 import logo from '../assets/logo.png'
+import {BsHouseDoor} from 'react-icons/bs'
 
 function Header() {
   const { currentUser } = useSelector((state) => state.user);
@@ -93,15 +94,20 @@ function Header() {
     <header className="bg-slate-200 shadow-md h-24">
       <div className="flex justify-between items-center max-w-6xl mx-auto p-3">
         
-        {/* Logo */}
-        <Link to="/">
-          <img src={logo} alt="" className="h-[100px] w-[200px]" />   
-        </Link>
+        {/* <Link to="/">
+          <img src={logo} alt="" className="h-[100px] w-[200px]" />    
+          <h1>Group Five EstateApp</h1>
+          Real Estate <BsHouseDoor />
+        </Link> */}
 
+        <Link to='/' className="no-underline text-[26px] font-bold flex items-center gap-2 text-[#3512d1]">
+        Real Time Estates <BsHouseDoor />
+        
+        </Link> 
+       
         <form
           onSubmit={handleSubmit}
-          className="bg-slate-100 p-3 rounded-lg flex items-center"
-        >
+          className="bg-slate-100 p-3 rounded-lg flex items-center">
           <input
             type="text"
             placeholder="Search..."

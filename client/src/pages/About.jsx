@@ -25,8 +25,8 @@ function About() {
         a seasoned investor, a first-time homebuyer, or someone looking for a
         temporary residence, our platform is tailored to meet your unique needs.
         Discover the latest market trends, neighborhood insights, and expert
-        advice through our informative articles and resources. [Your Real Estate
-        Website Name] is not just a website; it's your gateway to a world of
+        advice through our informative articles and resources.Real Time Estate
+         is not just a website; it's your gateway to a world of
         opportunities in the real estate realm. Start your journey with us and
         turn your property dreams into reality.
       </p>

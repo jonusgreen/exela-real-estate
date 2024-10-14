@@ -13,6 +13,7 @@
   "dependencies": {
     "@reduxjs/toolkit": "^2.0.1",
     "axios": "^1.6.7",
+    "caniuse-lite": "^1.0.30001667",
     "firebase": "^10.7.2",
     "install": "^0.13.0",
     "npm": "^10.3.0",
